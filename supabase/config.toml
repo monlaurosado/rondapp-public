@@ -1,0 +1,27 @@
+project_id = "bckrwqvvmjjorunbzxbo"
+
+[auth]
+enabled = true
+site_url = "http://localhost:8081"
+additional_redirect_urls = [
+  "rondapp://auth/callback",
+  "rondapp://**",
+  "exp://**",
+  "http://localhost:8081/auth/callback",
+  "http://127.0.0.1:8081/auth/callback",
+  "https://darkgray-partridge-666122.hostingersite.com/auth/callback",
+]
+
+[auth.external.google]
+enabled = true
+client_id = "env(SUPABASE_AUTH_EXTERNAL_GOOGLE_CLIENT_ID)"
+secret = "env(SUPABASE_AUTH_EXTERNAL_GOOGLE_CLIENT_SECRET)"
+skip_nonce_check = false
+
+[auth.external.apple]
+enabled = true
+client_id = "env(SUPABASE_AUTH_EXTERNAL_APPLE_CLIENT_ID)"
+secret = "env(SUPABASE_AUTH_EXTERNAL_APPLE_SECRET)"
+
+[functions.cleanup-storage-deletions]
+verify_jwt = false

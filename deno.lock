@@ -1,0 +1,68 @@
+{
+  "version": "5",
+  "remote": {
+    "https://esm.sh/@supabase/supabase-js@2.110.0": "b99c0ce7729f9de7797f836b93ab9ec94f1cfe079b4f937fa4144fe13525e979"
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:@expo/metro-runtime@~57.0.3",
+        "npm:@react-native-community/netinfo@12.0.1",
+        "npm:@supabase/ssr@0.12",
+        "npm:@supabase/supabase-js@^2.110.0",
+        "npm:@tanstack/react-query@^5.101.2",
+        "npm:@types/react@~19.2.2",
+        "npm:date-fns@^4.4.0",
+        "npm:dotenv@^17.4.2",
+        "npm:eslint-config-expo@~57.0.2",
+        "npm:eslint@^9.39.4",
+        "npm:expo-apple-authentication@~57.0.2",
+        "npm:expo-auth-session@~57.0.15",
+        "npm:expo-blur@~57.0.3",
+        "npm:expo-camera@~57.0.6",
+        "npm:expo-clipboard@~57.0.2",
+        "npm:expo-constants@~57.0.3",
+        "npm:expo-crypto@~57.0.4",
+        "npm:expo-dev-client@~57.0.20",
+        "npm:expo-device@~57.0.2",
+        "npm:expo-haptics@~57.0.3",
+        "npm:expo-image-manipulator@~57.0.21",
+        "npm:expo-image-picker@~57.0.20",
+        "npm:expo-image@~57.0.5",
+        "npm:expo-linear-gradient@~57.0.2",
+        "npm:expo-linking@~57.0.1",
+        "npm:expo-notifications@~57.0.22",
+        "npm:expo-router@~57.0.4",
+        "npm:expo-secure-store@~57.0.4",
+        "npm:expo-sharing@~57.0.3",
+        "npm:expo-sqlite@~57.0.4",
+        "npm:expo-status-bar@~57.0.1",
+        "npm:expo-updates@~57.0.6",
+        "npm:expo-web-browser@~57.0.3",
+        "npm:expo@~57.0.28",
+        "npm:lucide-react-native@^1.24.0",
+        "npm:react-dom@^19.2.3",
+        "npm:react-native-gesture-handler@2.32",
+        "npm:react-native-reanimated@4.5.1",
+        "npm:react-native-safe-area-context@5.7",
+        "npm:react-native-screens@4.26",
+        "npm:react-native-svg@15.15.4",
+        "npm:react-native-url-polyfill@3",
+        "npm:react-native-web@~0.21.2",
+        "npm:react-native-worklets@0.10.1",
+        "npm:react-native@0.86.3",
+        "npm:react@19.2.3",
+        "npm:typescript@~6.0.3",
+        "npm:zod@^4.4.3",
+        "npm:zustand@^5.0.14"
+      ],
+      "overrides": {
+        "expo-router": "$expo-router",
+        "decode-uri-component": "^0.5.0",
+        "uuid": "11.1.1",
+        "image-size": "^2.0.4",
+        "react-native-screens": "$react-native-screens"
+      }
+    }
+  }
+}
